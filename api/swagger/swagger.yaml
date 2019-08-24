@@ -51,11 +51,17 @@ definitions:
     properties:
       status:
         type: string
+      dateres:
+        type: string
   loginRequest:
     properties:
       id:
         type: string
       pwd:
+        type: string
+      datereq:
+        type: string
+      city:
         type: string
   ErrorResponse:
     required:
